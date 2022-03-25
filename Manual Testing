@@ -1,0 +1,129 @@
+
+
+ 
+Candidate Name: Zulhelmi Azri bin Ali
+Date:
+Time Allowed: 60 Minutes
+Note: Use of mobile or internet is not allowed during the test.
+
+1.	Write down the test cases for uploading a photo to Facebook?
+-	Verify login with with valid username and empty password
+-	Verify login with valid password and empty username
+-	Verify login with the username is invalid and valid password
+-	Verify login with valid username and invalid password
+-	Verify login with invalid username and valid password
+-	Verify login with valid username and valid password
+-	Verify uploading photo can accept jpg file
+-	Verify uploading photo cannot accept word file
+-	Verify Upload Image button is clickable or not.
+-	Verify whether the entire button with button text is clickable or not.
+-	Verify on the Click upload button it should ask for the location for upload
+-	Verify is the warning message is displaying or not with the click of the upload button without selecting any image.
+-	Verify is there any restriction of image file size to upload.
+-	Verify is the images are uploading or not, whose names have space or special characters.
+-	Verify is the user is able to upload an image where the name is duplicated.
+-	Verify during uploading any progress bar is displayed or not.
+-	Verify the upload button is disabled or not when the upload of a file is already in progress.
+-	Verify after the upload is the user able to see the image or not.
+-	Verify if someone clicks the refresh button then the image is uploading or not.
+-	Verify user getting the warning message or not, on clicking the upload button post upload.
+-	Verify is the multiple-image upload functionality is implemented or not.
+-	Verify the order of the uploading images same as the image uploaded.
+-	Verify uploading by drag and drop image functionality working or not.
+-	Verify the image is uploading or not if the user clicks the cancel button during uploading the file.
+-	Verify is proper upload guidelines are mentioned for the pic upload ex: size, resolution, naming what is inappropriate, etc.
+-	Verify the allowed image file extension like .jpg, .jpeg, .bmp, .gif, .png, .svg, .ico for upload image.
+-	Verify user getting any warning message on uploading non-image files like extemsion .doc, .docx, .xls, .xlsx, .pdf, .rar, .zip etc.
+-	Verify on the click upload button is the file selection dialogue shows only supported files listed.
+-	Verify the alignment of the photo after uploading.
+-	Verify tools like crop, edit, beautify, etc options are displaying or not after uploading the image.
+-	Verify by uploading images of specific width and height, is the specified image is accepted otherwise rejected.
+-	Verify the image quality after upload. The quality of the image should not be changed after uploading the image.
+-	Verify on keep uploading pictures and see if the previous picture gets replaced.
+-	Verify file size restrictions (Minimum Size, Maximum Size) are working or not.
+-	Verify image size is shown or not with the uploaded image.
+-	Verify if there is Profile Picture that exists then deleting should either open up a Confirmation Dialog Box or delete the Picture directly.
+-	Verify if the User selects YES delete then the Picture should get deleted and be replaced with a blank/default Profile Picture icon.
+-	Verify if the User selects NO, don’t delete then the Picture should remain as it is.
+-	Verify if no Profile Picture is there, then tapping on Delete should show an error.
+
+2.	Write down Test cases For Excel Export Functionality
+-	Verify the user is able to click the export to excel button.
+-	Verify on click of export to excel, an excel file should be downloaded or not.
+Check
+-	Verify when you export to excel, a new tab should be opened in the excel. A windows with dialog should be opened with two option Save or open should appear.
+-	Verify save– Document should be saved in the mentioned location and in correct file format.
+-	Verify open – Document should be opened in next tab/window.
+-	Verify user is able to open the downloaded file or not.
+-	Verify the user is able to edit the downloaded the excel file.
+-	Verify the downloaded excel sheet name as per the CRS.
+-	Verify the size, color and alignment of the export to excel button.
+-	Verify the exported file have the valid data.
+3.	What is meant my url manipulation? write down test cases for url manipulation
+- URL manipulation is the process of altering the parameters in a URL.
+- Verify username of URL is change
+- Verify password of URL is change
+- Verify message of URL is change
+- Verify ID URL is change
+- Verify all the string is valid
+4.	Explain the difference between Authorization and Authentication in Web testing.
+-	Authentication is the process of verifying who someone is, whereas authorization is the process of verifying what specific applications, files, and data a user has access to.
+5.	What is Exploratory Testing?
+-	Exploratory testing is an approach to software testing that is often described as simultaneous learning, test design, and execution.
+
+6.	What is the difference between stress testing, load testing and volume testing? Also explain the Difference between bug leakage and bug release?
+-	Stress testing is software testing to check the stability and reliability of the system under heavy load. Volume testing is software testing to check the system's performance under huge data volume
+-	A defect which exists during testing yet unfound by the tester which is eventually found by the end-user is also called bug leakage. A bug release is when a particular version of software is released with a set of known bug release
+
+7.	Explain what is the difference between Regression testing and Retesting?
+
+-	Regression testing is to ensure that changes have not affected the unchanged part of product. Retesting is used to ensure the test cases which failed in last execution are fixed.
+
+8.	Explain what is the difference between Smoke testing and Sanity?
+-	Smoke testing verifies the entire system from end to end whereas Sanity Testing verifies only a particular component
+
+9.	What is the difference between Test Case and a Use Case? What information would you include in their descriptions?
+-	A Use Case helps to describe the method to use it for a particular task. And a Test Case is characterized as a group of test inputs, the conditions of success and the expected results leading to a specific test objective
+-	Use case is use also for business and test case use for tester
+10.	What are the main elements of a test plan and test cases?
+Test Plan 
+1) Objectives
+
+2) scope
+
+3) Approach
+
+4) Testing Methodology
+
+5) Assumption
+
+6) Risk
+
+7) Contingency plan
+
+8) Deliverable
+
+9) Defect Reporting
+
+10) Efforts and Estimation
+
+11) Entry and Exit Criteria
+
+12) Roles and Responsibilities
+
+13) Schedules
+
+14)Testing environment
+
+
+Test case element
+
+1) Test case id
+2) Unit to test: What to be verified?
+3) Assumptions
+4) Test data: Variables and their values
+5) Steps to be executed
+6) Expected Result
+7) Actual result
+8) Pass/Fail
+9) Comments
